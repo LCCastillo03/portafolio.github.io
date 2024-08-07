@@ -2,6 +2,8 @@
     margin:0;
     padding:0;
     font-family: "Raleway";
+    box-sizing: border-box;
+
 }
 
 .hero{
@@ -50,6 +52,7 @@ nav ul li a:hover {
     font-size: 50px;
     color: #212121;
     margin-bottom: 20px;
+
 }
 
 span {
@@ -93,7 +96,7 @@ span {
 .about-header {
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 .about-header h1 {
@@ -176,5 +179,80 @@ span {
     font-size: 16px;
     color: #555; 
     line-height: 1.6;
+}
+
+.book-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.book-header h1 {
+    width: 100%;
+    font-size: 50px;
+    color: #212121; 
+}
+
+.books {
+    width: 100%;
+    padding: 50px 8%;
+    background-color: #FFFAF0;
+    display: flex; /* Cambia a un diseño de fila */
+    flex-wrap: wrap; /* Permite que los libros se envuelvan en varias líneas si es necesario */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Añade espacio entre los libros */
+    flex-direction: column; /* Cambia la dirección del flex a columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+.book-one {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 100%; /* Ajusta el tamaño según sea necesario */
+    max-width: 600px; /* Ajusta el tamaño máximo para evitar que sea demasiado ancho */
+    margin: 20px; /* Añade espacio alrededor de la tarjeta */
+    display: flex;
+    flex-direction: column; /* Permite que la imagen y el contenido se apilen verticalmente */
+    align-items: center;
+}
+
+.book-one:hover {
+    transform: translateY(-10px);
+}
+
+.book-img {
+    width: 50%; /* Ajusta el tamaño de la imagen al 100% del contenedor */
+    height: 40%; /* Mantiene la proporción de la imagen */
+    border-bottom: 1px solid #e0e0e0; /* Añade una línea debajo de la imagen */
+}
+
+.book-container {
+    text-align: center;
+    padding: 20px; /* Añade espacio interno alrededor del contenido del libro */
+}
+
+.book-container h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #212121;
+}
+
+.book-author {
+    color: #777;
+    margin: 8px 0;
+    font-style: italic;
+}
+
+.book-description {
+    color: #555;
+    line-height: 1.6;
+}
+
+.book-link {
+    text-decoration: none; /* Elimina la línea subrayada */
+    color: orange; /* Cambia el color del enlace */
+    transition: color 0.3s ease; /* Añade una transición suave para el cambio de color */
 }
 
