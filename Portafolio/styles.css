@@ -223,14 +223,14 @@ span {
 }
 
 .book-img {
-    width: 50%; /* Ajusta el tamaño de la imagen al 100% del contenedor */
-    height: 40%; /* Mantiene la proporción de la imagen */
-    border-bottom: 1px solid #e0e0e0; /* Añade una línea debajo de la imagen */
+    width: 50%; 
+    height: 40%; 
+    border-bottom: 1px solid #e0e0e0; 
 }
 
 .book-container {
     text-align: center;
-    padding: 20px; /* Añade espacio interno alrededor del contenido del libro */
+    padding: 20px; 
 }
 
 .book-container h3 {
@@ -251,8 +251,31 @@ span {
 }
 
 .book-link {
-    text-decoration: none; /* Elimina la línea subrayada */
-    color: orange; /* Cambia el color del enlace */
-    transition: color 0.3s ease; /* Añade una transición suave para el cambio de color */
+    text-decoration: none; 
+    color: orange; 
+    transition: color 0.3s ease; 
+}
+
+footer{
+    background-color: #000;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+footer p {
+    margin: 0; 
+    color: #fff
+}
+
+footer a {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+.ffeature-icon {
+    color: #fff; 
+    font-size: 20px;
+    margin-right: 8px; 
 }
 
