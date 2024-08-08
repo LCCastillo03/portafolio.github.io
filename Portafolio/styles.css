@@ -279,3 +279,13 @@ footer a {
     margin-right: 8px; 
 }
 
+.svg-icon {
+    vertical-align: middle;
+    margin-left: 8px; 
+}
+
+.footer-svg-icon {
+    width: 30px; 
+    height: 30px; 
+    fill: #fff; 
+}
